@@ -18,7 +18,7 @@ export default createStore({
     async GET_ADVANTAGES_FROM_DB({commit}){
       
       try {
-        const advantages = await axios("https://sedm1.github.io/svc/db.json", {
+        const advantages = await axios("https://raw.githubusercontent.com/sedm1/svc/main/db.json", {
           method: "GET"
         })
 
