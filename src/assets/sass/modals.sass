@@ -1,0 +1,69 @@
+@import "@/assets/sass/vars.sass"
+.modalBg
+    position: fixed
+    top: 0
+    left: 0
+    +flexa 
+    justify-content: center
+    background: rgba(0, 0, 0, 0.4)
+    z-index: 1000
+    width: 100%
+    height: 100%
+.ModalWindow
+    background: $greyLow
+    border: 1px solid $greyText
+    border-radius: 10px
+    padding: 30px
+    max-width: 600px
+    width: 100%
+    position: relative
+.Modal-enter-active,.Modal-leave-active 
+    transition: opacity 0.5s ease
+.Modal-enter-from, .Modal-leave-to 
+    opacity: 0
+.modal
+    &__title
+        text-align: center
+        span
+            color: $orange
+    &__input
+        &-item
+            margin-top: 25px
+        &-title
+            font-size: 17px
+            font-weight: 600
+            margin-left: 10px
+        &-input
+            width: 100%
+            margin-top: 5px
+            padding: 15px
+            background: $greyInput
+            border-radius: 10px
+            color: $white
+            font-weight: 400
+            font-size: 17px
+            &::placeholder
+                color: $greyText
+                font-weight: 400
+                font-size: 17px
+    &__button
+        width: 100%
+        padding: 13px 0px
+        color: $white
+        font-size: 16px
+        font-weight: 600
+        margin-top: 20px
+        border-radius: 10px
+#LoginButton
+    background: $orange
+#SignUpButton
+    background: $grey
+.closeModal
+    position: absolute
+    top: 20px
+    right: 20px
+    width: 30px
+    height: 30px
+@media screen and (max-width: 450px)
+    .ModalWindow
+        padding: 20px 10px

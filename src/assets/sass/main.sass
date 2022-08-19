@@ -1,0 +1,40 @@
+@import "colors"
+@import "vars"
+@import "mixins"
+*
+    padding: 0
+    margin: 0
+    box-sizing: border-box
+    font-family: 'Poppins', sans-serif
+    font-size: 16px
+    color: $white
+.container
+    max-width: $MainContainerWidth
+    width: 100%
+    margin: 0 auto
+img
+    display: block
+    width: 100%
+    height: auto
+.menu
+    +flexa 
+li
+    list-style: none
+a,button, input
+    border: 0 none
+    outline: 0 none
+    cursor: pointer
+    +fontInherit
+    background:  0 none
+input
+    cursor: text
+span
+    +fontInherit
+h1
+    font-size: 40px
+    font-weight: 600
+@media screen and ( max-width:  $MainContainerWidth)
+    .container
+        width: 98%
+    h1
+        font-size: 5.5vw

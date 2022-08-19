@@ -1,0 +1,29 @@
+{
+    "advantages": [
+        {
+            "id": 1,
+            "icon": "Bank.svg",
+            "title": "10 largest exchanges in the world"
+        },
+        {
+            "id": 2,
+            "icon": "pairs.svg",
+            "title": "more than 7000 trading pairs"
+        },
+        {
+            "id": 3,
+            "icon": "schest.svg",
+            "title": "flexible search settings"
+        },
+        {
+            "id": 4,
+            "icon": "graf.svg",
+            "title": "Charts"
+        },
+        {
+            "id": 5,
+            "icon": "Bell.svg",
+            "title": "Sound alerts"
+        }
+    ]
+}
