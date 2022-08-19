@@ -1,6 +1,6 @@
 <template>
   <div class="adv__item">
-    <div class="adv__item-img">{{advItem.icon}}</div>
+    <div class="adv__item-img"><img :src="require('@/assets/img/icons/' + advItem.icon)" alt="advImg"></div>
     <h3 class="adv__item-title">{{advItem.title}}</h3>
   </div>
 </template>
