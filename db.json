@@ -1,5 +1,4 @@
-{
-    "advantages": [
+ [
         {
             "id": 1,
             "icon": "Bank.svg",
@@ -26,4 +25,3 @@
             "title": "Sound alerts"
         }
     ]
-}
