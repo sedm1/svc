@@ -58,6 +58,13 @@ export default {
     },
     mounted(){
         this.GET_ADVANTAGES_FROM_DB()
+        const pw = window.matchMedia('(display-mode: standalone)').matches
+        if (pw){
+            alert("ДА")
+        } else {
+            alert("Нет")
+        }
+        
     }
 }
 </script>
